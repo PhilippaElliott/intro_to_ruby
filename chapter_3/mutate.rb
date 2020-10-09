@@ -5,6 +5,6 @@ def mutate(array)
   array.pop
 end
 
- "Before mutate method: #{a}"
+ puts "Before mutate method: #{a}"
 mutate(a)
-p "After mutate method: #{a}"
+puts "After mutate method: #{a}"
