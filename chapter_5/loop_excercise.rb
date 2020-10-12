@@ -1,9 +1,12 @@
 loop do
-  puts "Is this a useful programme? Type Y or N"
+  puts "Say hello!"
   answer = gets.chomp
-  if answer == "Y"
-    puts "Thank you!"
-    break
+  if answer != "STOP"
+    puts "Hi there, how are you?"
+  else answer == "STOP"
+        break
   end
   
 end
+
+puts "Sorry, did I bore you?"
