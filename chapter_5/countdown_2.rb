@@ -1,6 +1,11 @@
-def countdown(start)
-  puts start
-  if start > 0
-    countdown(start - 1)
+def countdown(number)
+    if number <= 0
+      puts number
+    else
+      puts number
+    countdown(number - 1)
   end
 end
+
+countdown(100)
+countdown(15)
