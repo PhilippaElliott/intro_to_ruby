@@ -1,8 +1,13 @@
-array = ["laboratory", "experiment", "Pans Labyrinth", "elaborate", "Polar bear"]
-
-array.each do |word|
-  if word.include? "lab"
-    puts word
-     else puts "No match"
+def include_char(string)
+  if string =~ /lab/
+    puts string
+  else 
+    puts "No Match"
   end
 end
+
+include_char("laboratory")
+include_char("experiment")
+include_char("Pans Labyrinth")
+include_char("elaborate")
+include_char("polar bear")
